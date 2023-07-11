@@ -239,3 +239,22 @@
     font-size: 16px;
     margin: 20px;
 }
+/* this is icon section */
+.icons-container{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.icons{
+    background: #FFF;
+    margin-left: 70px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    
+}
