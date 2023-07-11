@@ -139,6 +139,7 @@
     padding-top: 100px;
     width: 310px;
     height: 320px; 
+    
      
  
 }
@@ -163,12 +164,12 @@
 }
 .deal-container{
     background-image: url('/flowerasset/rectangle9.png');
-    /* width: 1345px; */
-    /* height: 340px; */
-    margin-top: 70px;
+     /* margin-top: 70px; */
+    margin: 70px;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-position: center;
+    /* height: 100vh; */
 }
 .text-three{
     color: #272727;
@@ -187,7 +188,9 @@
 .inp-class{
     width: 630px;
    height: 50px;
-   margin-top: 40px;
+   align-items: center;
+   /* margin-top: 150px; */
+   /* margin-top: -100px; */
    margin-left: 350px;
    color: rgba(39, 39, 39, 0.60);
    font-size: 15px;
@@ -196,14 +199,43 @@
 }
 .sub{
     display: flex;
+    padding: 140px 0;
 }
-.btn-sub{
+.btn-subs{
     border-radius: 8px;
     background: #E55473;
     width: 150px;
     height: 58px;
-    margin-top: 36px;
+    /* margin-top: -104px; */
+    align-items: center;
     color: #FFF; 
     font-size: 18px; 
+    margin-left: 10px;
+}
+.footer-container{
+    background: #111010;
+    height: 350px;
+    margin-top: 30px;
+
+}
+.footer-heading{
+    padding-top: 80px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 48px; 
+    color: #FFFFFF;
+}
+.footer-text{
+    /* padding-top: 100px; */
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
  
+ 
+}
+.footer-copy{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    margin: 20px;
 }
