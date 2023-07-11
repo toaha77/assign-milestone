@@ -29,9 +29,11 @@
     padding: 20px 45px;
     border: none;
     margin-top: 15px;
-    color: white;
-     
-}
+    color: #FFF;
+   
+   font-size: 20px;
+   cursor: pointer;
+ }
 .img-class{
     width: 375px;
     height: 550px;
@@ -85,7 +87,10 @@
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
-    padding-left: 70px;
+    padding-left: 60px;
+}
+.para-text{
+    padding-right: 110px;
 }
 .optional{
     margin: 80px;
@@ -126,13 +131,14 @@
 .btn{
     background:#E55473;
     border-radius: 10px;
-    padding: 20px 40px;
+    padding: 15px 40px;
     color: white;
     border: none;
-    margin-left: 290px;
+    margin-left: 360px;
     margin-top: 15px;
     width: 140px;
-    
+    font-size: 17px;
+    cursor: pointer;
 }
 #img{
     /* padding: 130px 400px 100px 400px; */
@@ -157,11 +163,16 @@
     margin-top: 30px;
 }
 .rectangle-image{
-    width: 320px;
-    height: 376px;
+    /* width: 220px; */
+    /* height: 360px; */
+    width: 342px;
+height: 335px;
+
     display: flex;
     margin-top: 20px;
-    gap: 10px;
+    gap: 15px;
+    padding-left: 73px;
+    padding-right: 73px;
 }
 .deal-container{
     background-image: url('../flowerasset/rectangle9.png');
@@ -212,6 +223,8 @@
     color: #FFF; 
     font-size: 18px; 
     margin-left: 10px;
+    border: none;
+    cursor: pointer;
 }
 .footer-container{
     background: #111010;
@@ -227,7 +240,7 @@
     color: #FFFFFF;
 }
 .footer-text{
-    /* padding-top: 100px; */
+    padding-top: 40px;
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
